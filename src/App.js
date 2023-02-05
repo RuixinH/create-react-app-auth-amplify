@@ -26,6 +26,7 @@ class App extends Component {
           </a>
         </header>
       </div>
+<div><button onClick={() => Auth.federatedSignIn()}>Federated Sign In</button></div>
     );
   }
 }
